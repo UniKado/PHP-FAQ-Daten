@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8">
+<!-- Eine Liste mit allen Kategorien der PHP-FAQ
+
+Jedes "Category" Element besitzt die folgenden beiden Pflichtattribute
+
+- 'alias': Eindeutiger Alias der Kategorie. Dessen Format muss so sein, das er ohne Maskierung
+           direkt in einer Webadresse als URL Bestandteil genutzt werden kann.
+           Wenn ein bestehender Alias geändert werden soll, dann ist darauf zu achten, das
+           Beiträge im Unterverzeichnis mit dem jeweiligen Alias als Verzeichnisname liegen
+           Der Verzeichnisname muss dann auch angepast werden!
+- 'name':  Der Name der Kategorie
+
+ -->
+<Categories>
+  <Category alias="about" name="Über diese FAQ" />
+  <Category alias="general" name="Allgemeine Fragen rund um PHP" />
+  <Category alias="install" name="Installation und Inbetriebname" />
+  <Category alias="config" name="Konfiguration" />
+  <Category alias="phpinterpreter" name="Fragen zum PHP Interpreter" />
+  <Category alias="functions" name="Typen und Funktionen" />
+  <Category alias="strings" name="Zeichenketten" />
+  <Category alias="regexp" name="Reguläre Ausdrücke" />
+  <Category alias="arrays" name="Arrays und Arrayvariablen" />
+  <Category alias="objects" name="Klassen und Objekte" />
+  <Category alias="webvariablen" name="Variablen und Formulare" />
+  <Category alias="security" name="Sicheres Programmieren in PHP" />
+  <Category alias="open_exec" name="Dateifunktionen und Programmausführung" />
+  <Category alias="datetime" name="Datums und Kalenderprobleme" />
+  <Category alias="mail" name="Mail lesen und schreiben" />
+  <Category alias="datebases" name="Datenbanken" />
+  <Category alias="database_mysql" name="Datenbanken: MySQL" />
+  <Category alias="database_oracle" name="Datenbanken: Oracle" />
+  <Category alias="database_sybase" name="Datenbanken: Sybase" />
+  <Category alias="database_mssql" name="Datenbanken: Microsoft SQL Server" />
+  <Category alias="phpmyadmin" name="phpMyAdmin" />
+  <Category alias="graphics" name="Grafikfunktionen" />
+  <Category alias="pdf_files" name="PDF Dateien" />
+  <Category alias="cms" name="Content Management Systeme" />
+  <Category alias="snippets" name="Häufig benötigte Codeschnipsel" />
+  <Category alias="scripts" name="Häufig nachgefragt Standardskripte" />
+  <Category alias="code" name="Guter Code" />
+  <Category alias="errors" name="Häufige Fehlermeldungen" />
+  <Category alias="version4_session" name="Sessions" />
+  <Category alias="pear" name="PEAR" />
+  <Category alias="version3" name="PHP3" />
+</Categories>
