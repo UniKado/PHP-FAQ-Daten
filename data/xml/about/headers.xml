@@ -16,11 +16,9 @@ Maskierung verwendet werden kann um auf den FAQ-Beitrag zu verweisen.
   Bearbeiters) und 'datetime' (Bearbeitszeitpunkt) haben muss.
 - In "Question" wird noch die Frage der FAQ definiert und das wars auch schon
 
-Die Antwort selbst (jede einzeln) wird als Markdown Datei (Im speziellen
-[PHP Markdown-Extra](http://michelf.ca/projects/php-markdown/extra/) ) unter dem jeweiligen
-FAQ-Alias + .md Dateiendung erwartet. Da sich der Alias ohnehin nur in Ausnahmefällen ändern sollte
-dürfete das nur dann zu Problemen führen wenn Alias und Dateiname bei Änderungen nicht
-synchron gehalten werden.  
+Die Antwort selbst (jede einzeln) wird als HTML Datei unter dem jeweiligen FAQ-Alias + .html
+Dateiendung erwartet. Da sich der Alias ohnehin nur in Ausnahmefällen ändern sollte, dürfete das
+nur dann zu Problemen führen wenn Alias und Dateiname bei Änderungen nicht synchron gehalten werden.  
 -->
 <Faqs>
   <Faq alias="faq-ueberblick">
@@ -30,72 +28,117 @@ synchron gehalten werden.
       <Editor name="Ulf Kadner" datetime="2014-03-24" />
     </Editors>
   </Faq>
+  
   <Faq alias="newsgroup-charta">
     <Question>Wie ist die Charta dieser Newsgroup?</Question>
     <Author name="Niels Braczek" datetime="2011-04-25" />
     <Editors />
   </Faq>
-  <Faq alias="">
-    <Question></Question>
-    <Author name="" />
+  
+  <Faq alias="faq-download">
+    <Question>Wo finde ich die aktuelle Version dieser FAQ?</Question>
+    <Author name="Kristian Köhntopp" />
     <Editors>
-      <Editor name="" datetime="" />
+      <Editor name="Niels Braczek" datetime="2008-10-02" />
+      <Editor name="Ulf Kadner" datetime="2014-03-24 19:46:45">
     </Editors>
   </Faq>
-  <Faq alias="">
-    <Question></Question>
-    <Author name="" />
+  
+  <Faq alias="faq-by-mail">
+    <Question>Kann ich eine Kopie der FAQ per Mail zugesendet bekommen?</Question>
+    <Author name="Kristian Köhntopp" />
+  </Faq>
+  
+  <Faq alias="private-anfragen">
+    <Question>Du hast doch für die FAQ geschrieben. Ich habe da eine Frage zu PHP...</Question>
+    <Author name="Kristian Köhntopp" />
+  </Faq>
+  
+  <Faq alias="faq-verwenden">
+    <Question>Darf ich die FAQ auf meiner Site einbinden? Darf ich sie für meine Zwecke verwenden?</Question>
+    <Author name="Kristian Köhntopp" />
     <Editors>
-      <Editor name="" datetime="" />
+      <Editor name="Niels Braczek" datetime="2008-10-04" />
     </Editors>
   </Faq>
-  <Faq alias="">
-    <Question></Question>
-    <Author name="" />
+  
+  <Faq alias="faq-fehler">
+    <Question>Was soll ich tun, wenn ich einen Fehler in der FAQ gefunden habe?</Question>
+    <Author name="Martin Jansen" />
     <Editors>
-      <Editor name="" datetime="" />
+      <Editor name="Niels Braczek" datetime="2008-10-12" />
+      <Editor name="Ulf Kadner" datetime="2014-03-24 20:05:10">
     </Editors>
   </Faq>
-  <Faq alias="">
-    <Question></Question>
-    <Author name="" />
+  
+  <Faq alias="faq-mitmachen">
+    <Question>Kann ich selber für diese FAQ schreiben?</Question>
+    <Author name="Kristian Köhntopp" />
     <Editors>
-      <Editor name="" datetime="" />
+      <Editor name="Niels Braczek" datetime="2008-10-02" />
+      <Editor name="Ulf Kadner" datetime="2014-03-24 20:05:10">
     </Editors>
   </Faq>
-  <Faq alias="">
-    <Question></Question>
-    <Author name="" />
+  
+  <Faq alias="newsgroup-jobs">
+    <Question>Soll ich Jobangebote in de.comp.lang.php posten?</Question>
+    <Author name="Kristian Köhntopp" />
     <Editors>
-      <Editor name="" datetime="" />
+      <Editor name="Niels Braczek" datetime="2008-10-05" />
     </Editors>
   </Faq>
-  <Faq alias="">
-    <Question></Question>
-    <Author name="" />
+  
+  <Faq alias="newsgroup-providersuche">
+    <Question>Wer kann mir einen Provider empfehlen?</Question>
+    <Author name="Kristian Köhntopp" />
+  </Faq>
+  
+  <Faq alias="newsgroup-flames">
+    <Question>Warum bekomme ich Ermahnungsmails, wenn ich Autoren in der Gruppe auf Netiquetteverstöße aufmerksam mache?</Question>
+    <Author name="Kristian Köhntopp" />
+  </Faq>
+  
+  <Faq alias="newsgroup-neuling">
+    <Question>Warum bekomme ich Ermahnungsmails?</Question>
+    <Author name="Kristian Köhntopp" />
+  </Faq>
+  
+  <Faq alias="newsgroup-wie-helfen">
+    <Question>Warum sind Flames sinnlos?</Question>
+    <Author name="Kristian Köhntopp" />
+  </Faq>
+  
+  <Faq alias="newsgroup-oe-opfer">
+    <Question>Ich verwende Outlook Express und keiner hat mich lieb.</Question>
+    <Author name="Kristian Köhntopp" />
+  </Faq>
+  
+  <Faq alias="newsgroup-tofu">
+    <Question>Was ist TOFU? Wieso finden die Anderen meine Artikel schwer zu lesen?</Question>
+    <Author name="Kristian Köhntopp" />
+  </Faq>
+  
+  <Faq alias="newsgroup-faqreferenz">
+    <Question>Wie verweise ich auf die FAQ?</Question>
+    <Author name="Kristian Köhntopp" />
     <Editors>
-      <Editor name="" datetime="" />
+      <Editor name="Niels Braczek" datetime="2008-10-13" />
     </Editors>
   </Faq>
-  <Faq alias="">
-    <Question></Question>
-    <Author name="" />
+  
+  <Faq alias="newsgroup-fragen">
+    <Question>Wie stelle ich meine Frage an die Newsgroup am sinnvollsten?</Question>
+    <Author name="Martin Jansen" />
     <Editors>
-      <Editor name="" datetime="" />
+      <Editor name="Niels Braczek" datetime="2008-10-31" />
     </Editors>
   </Faq>
-  <Faq alias="">
-    <Question></Question>
-    <Author name="" />
+  
+  <Faq alias="newsgroup-old">
+    <Question>Warum kann ich nicht mehr auf de.comp.lang.php.* zugreifen?</Question>
+    <Author name="Niels Braczek" />
     <Editors>
-      <Editor name="" datetime="" />
-    </Editors>
-  </Faq>
-  <Faq alias="">
-    <Question></Question>
-    <Author name="" />
-    <Editors>
-      <Editor name="" datetime="" />
+      <Editor name="Niels Braczek" datetime="20011-04-25" />
     </Editors>
   </Faq>
 </Faqs>

@@ -18,7 +18,7 @@ Pro Format ist ein neues Unterverzeichnis in data/ und in api/ zu erstellen.
 # Das XML Format
 
 Die XML Version ist keine reine XML-Version, da die Beiträge wegen besserer Wartbarkeit
-in separaten Dateien abgelegt werden die das MarkDown Format haben.
+in separaten Dateien abgelegt werden die das HTML Format haben.
 
 Der Aufbau sollte wie folgt aussehen:
 
@@ -26,7 +26,7 @@ Der Aufbau sollte wie folgt aussehen:
 - für jeden Alias einer Kategorie wird ein Unterverzeichnis angelegt das genau so heist wie der Alias
 - in jedem Kategorie-Alias Unterverzeichnis wird eine Datei headers.xml angelegt in der die grundlegenden
   Informationen zu allen Beiträgen der Kategorie festgelegt werden. (Formatbeschreibung steht in der XML-Datei)
-- Zu jeden Alias eines Beitrags der Kategorie wird eine MarkDown Datei angelegt, in der die Beantwortung
+- Zu jeden Alias eines Beitrags der Kategorie wird eine HTML-Datei angelegt, in der die Beantwortung
   der FAQ-Frage definiert wird. Wenn der FAQ in headers.xml z.B. der Alias 'the-ultimate-answer' zugewiesen ist
-  so musst die Beantwortung der FAQ-Frage in der Datei the-ultimate-answer.md, im selben Verzeichnis wie
+  so musst die Beantwortung der FAQ-Frage in der Datei the-ultimate-answer.html, im selben Verzeichnis wie
   die header.xml angelegt werden.
