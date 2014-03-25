@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8">
+<!--
+FAQs der Kategorie: Datenbanken (databases)
+
+Die hier definierten Daten zu einer FAQ sind minimal.
+
+Ein Faq Element muss immer das alias-Attribut haben, mit dem ein FAQ-weiter eindeutiger Alias
+festgelegt wird. Der Alias ist eine kurze einprägsamme Kennung, die z.B. in Webadressen ohne
+Maskierung verwendet werden kann um auf den FAQ-Beitrag zu verweisen.
+
+- Im "Author" Element wird mit dessen 'name' Attribut auf den Name des Autors verwiesen, der den
+  Beitrag ursprünglich erstellt hat. Mit dem optionalen 'datetime' Attribut kann auf das Erstellungs-
+  datum des Beitrags verwiesen werden.
+- Im "Editors" Element werden alle Bearbeiter des Beitrags festgehalten. Dabei wird jeder
+  Bearbeiter in einen Unterelement "Editor" abgelegt, das die Attribute 'name' (Der Name des
+  Bearbeiters) und 'datetime' (Bearbeitszeitpunkt) haben muss.
+- In "Question" wird noch die Frage der FAQ definiert und das wars auch schon
+
+Die Antwort selbst (jede einzeln) wird als HTML Datei unter dem jeweiligen FAQ-Alias + .html
+Dateiendung erwartet. Da sich der Alias ohnehin nur in Ausnahmefällen ändern sollte, dürfete das
+nur dann zu Problemen führen wenn Alias und Dateiname bei Änderungen nicht synchron gehalten werden.  
+-->
+<Faqs>
+  <Faq alias="">
+    <Question></Question>
+    <Author name="" />
+    <Editors>
+      <Editor name="" datetime="" />
+    </Editors>
+  </Faq>
+  
+  <Faq alias="">
+    <Question></Question>
+    <Author name="" />
+    <Editors>
+      <Editor name="" datetime="" />
+    </Editors>
+  </Faq>
+</Faqs>

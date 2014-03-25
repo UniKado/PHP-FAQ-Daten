@@ -27,7 +27,7 @@ Jedes "Category" Element besitzt die folgenden beiden Pflichtattribute
   <Category alias="open_exec" name="Dateifunktionen und Programmausführung" />
   <Category alias="datetime" name="Datums und Kalenderprobleme" />
   <Category alias="mail" name="Mail lesen und schreiben" />
-  <Category alias="datebases" name="Datenbanken" />
+  <Category alias="databases" name="Datenbanken" />
   <Category alias="database_mysql" name="Datenbanken: MySQL" />
   <Category alias="database_oracle" name="Datenbanken: Oracle" />
   <Category alias="database_sybase" name="Datenbanken: Sybase" />
